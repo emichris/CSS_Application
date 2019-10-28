@@ -1,0 +1,42 @@
+// Navigation code here
+.navig{
+    background-color: @nav-bg;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    width: 100%;
+    border: @nav-border;
+    position: fixed; // fix navigation bar
+    opacity:0.8; // set navigation bar opacity
+
+    h1{
+        background-color: @nav-bg;
+        width: 60;
+        text-align: center;
+        font-size: 5rem;
+    }
+    
+   nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left:20%;
+    margin-right: 20%;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    width:60%;
+        
+        a{
+            text-decoration: none;
+            color: @nav-font;
+        }
+        
+    }
+    
+}
+@media @phone{
+    .intro img{
+        width: 100%;
+        border-radius: 5px;
+    }
+}
+
